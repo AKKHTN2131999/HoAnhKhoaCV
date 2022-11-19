@@ -1,0 +1,76 @@
+\documentclass[letter]{cv-template}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tikz}
+\setlist{itemsep=1pt}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black
+}
+
+
+\name{Khoa Ho Anh}
+\address{}{719 Ta Quang Buu Street, W.4, D.8, HCM City}
+\phone{(+84) 368-367-501}
+\email{hoanhkhoakhtn@gmail.com}
+\github{https://github.com/AKKHTN2131999}
+
+
+\begin{document}
+
+    \displayheader \vspace{1.2cm}
+
+   
+
+    \createsection{Summary}\\
+        % \vspace*{7pt}
+        \textit{I am an alumnus of the University of Natural Sciences (under the Vietnam National University, Ho Chi Minh City). My major is computer science. With my love for Artificial Intelligence, I have been constantly studying and working hard in this field. I have 1 year experience working with Chatbot. I hope that a suitable job in the not-too-distance future will continue to fuel my passion.}\\\\
+
+    \createsection{Education}
+
+        \createtitle{Bachelor of Science, Computer Science}{Sep 2017 -- May 2022}
+        {VNUHCM - University of Science | GPA: 3.24}{HCMC, Vietnam}{
+            \begin{itemize}
+                \item \textit{Thesis}: Integrating WordNet into neural network machine translation  (July 2021). 
+            \end{itemize} \leavevmode
+        }
+
+
+
+    \createsection{Thesis}
+
+        \createproject{Integrating WordNet into neural network machine translation}{Dec 2020 -- July 2021}
+        {}{
+            \begin{itemize}
+                \item Improved LSW algorithm and increased 0.92 BLEU score.
+                \item Optimize wnet2vec memory and training time and achieve better word embbedding efficiency.
+                \item Cluster synsets (set of synonyms in Wordnet) and feed this information into word representation. Helps improve 1.55 BLEU.
+                \item Framework: Torch
+                \item Gaining knowledge: Know how to research and experiment in deep learning.
+            \end{itemize} \leavevmode
+        }
+
+
+       
+    \createsection{Experience}
+        \createproject{Working with rasa framework to train chatbot}{Dec 2021 -- July 2022}
+        {}{
+            \begin{itemize}
+                \item Company: \textbf{Zalo}
+                \item Enforce custom trainer identifiers, definitions and Rasa policies.
+                \item Install the script reply as a request only by rules.
+                \item Improvements in data enhancement using Rasa.
+                \item Improve response processing speed when the conversation is long.
+                \item Use the Rasa X tool to deploy a chatbot for training and data collection.
+                \item Using the API command of Rasa X for the process that using Python just got easier. 
+                \item Framework: Torch
+                \item Gaining knowledge: How to create a chatbot with Rasa and personalize on demand.
+            \end{itemize} \leavevmode
+        }
+    
+
+    \createsection{Skills}
+        \textit{Programing languages}: Python, Bash Shell \\
+        \textit{Libraries \& Frameworks}: PyTorch, TensorFlow/Keras, Scikit-learn, Huggingface, Rasa \\
+        \textit{Languagues}: Vietnamese, English (reading skills may be required)
+\end{document}
