@@ -47,7 +47,7 @@
 
 
 % ------------ Layout ------------
-\geometry{margin=2.0cm}
+\geometry{margin=1.75cm}
 \setlength \parindent{0pt}
 
 \newcommand*{\displayheader}{
@@ -75,15 +75,15 @@
 
 \newcommand*{\createhonor}[4]{
 
-    \begin{tabular*}{\linewidth}{@{\hskip 8pt}p{.90\linewidth} @{\extracolsep{\fill}}r}
+    \begin{tabular*}{\linewidth}{@{\hskip 4pt}p{.90\linewidth} @{\extracolsep{\fill}}r}
         \styletitle{#1} \stylesubtitle{#2}     &   \styleduration{#3}  \\[2.5pt]
-        \hspace*{3pt} \skipempty{#4}{\styledescription{#4} \\[13pt]}
-    \end{tabular*} \leavevmode \\ \vspace{1\baselineskip plus 6pt}
+        \hspace*{3pt} \skipempty{#4}{\styledescription{#4} \\[8pt]}
+    \end{tabular*} \leavevmode \\ \vspace{1\baselineskip plus 2pt}
 }
 
 \newcommand*{\createproject}[4]{
     \begin{tabular*}{\linewidth}{p{.75\linewidth} @{\extracolsep{\fill}}r}
         \styletitle{#1}       &   \styleduration{#2}
     \end{tabular*} \leavevmode
-    \styledescription{#4} \vspace{1\baselineskip plus 8pt}
+    \styledescription{#4} \vspace{0.5\baselineskip plus 2pt}
 }
